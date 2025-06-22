@@ -12,13 +12,16 @@ curl -fsSL https://get.jetify.com/devbox | bash
 
 ## Development
 
-Enter the devbox shell
+Enter the devbox shell.
 
 ```shell
 devbox shell
 ```
 
-Start the web server
+All further commands are assumed to be running inside the devbox shell.
+
+
+Start the web server.
 
 ```shell
 just dev-server
