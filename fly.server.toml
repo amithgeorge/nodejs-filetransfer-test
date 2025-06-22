@@ -18,3 +18,7 @@ primary_region = 'jnb'
 
 [[vm]]
   size = 'shared-cpu-1x'
+
+[deploy]
+  strategy = "immediate"
+
